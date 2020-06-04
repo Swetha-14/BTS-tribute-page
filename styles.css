@@ -1,0 +1,254 @@
+/* logo size */
+nav .navbar-brand {
+  font-size: xx-large;
+}
+
+/* Bottom right text (below the logo) */
+.bottom-right {
+  position: absolute;
+  font-size: small;
+  bottom: 8px;
+  left: 22px;
+  color: #7a3401;
+}
+
+/* logo styling */
+nav .navbar-brand .blue {
+  color: #537fbe;
+  font-size: 170%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* nav-items */
+#navbar {
+  font-size: large;
+}
+
+/* Whole page layout */
+body, html {
+  height: 100%;
+}
+
+/* Parallax display */
+.parallax, .parallax1, .parallax2 {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax {
+  background-image: url("BTS1.jpg");
+}
+
+.parallax1 {
+  background-image: url("image14.jpg");
+}
+
+.parallax2 {
+  background-image: url("bts5.jpg");
+}
+
+/* Text on parallax */
+.para {
+  font-size: 20px;
+  background-color: #FFA07A;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+  line-height: 40px;
+  line-break: normal;
+  white-space: pre-wrap;
+}
+
+/* heading */
+.heading {
+  color: #CD5C5C;
+  font: Arial, sans-serif;
+  background-color: #FFF0F5;
+  text-align: center;
+}
+
+/*Turn off parallax scrolling and grid system for all tablets and phones.*/
+@media only screen and (max-device-width: 499px) {
+  .parallax .parallax1 .parallax2 #responsivecolumn {
+    background-attachment: scroll;
+  }
+}
+
+/* slider */
+slider {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #1f1f1f;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+}
+
+/* slider */
+slider > * {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #1f1f1f;
+  animation: slide 15s infinite;
+  overflow: hidden;
+}
+
+/* Slideshows using images */
+slide:nth-child(1), slide:nth-child(2), slide:nth-child(3), slide:nth-child(4), slide:nth-child(5), slide:nth-child(6), slide:nth-child(7) {
+  left: 100%;
+  background-size: contain;
+  background-position: center;
+}
+
+slide:nth-child(1) {
+  animation-delay: 4s;
+  background-image: url(jungkook.jpg);
+}
+
+slide:nth-child(2) {
+  animation-delay: 6s;
+  background-image: url(taehyung.jpg);
+}
+
+slide:nth-child(3) {
+  animation-delay: 8s;
+  background-image: url(jimin.jpg);
+}
+
+slide:nth-child(4) {
+  animation-delay: 10s;
+  background-image: url(jin.jpg);
+}
+
+slide:nth-child(5) {
+  animation-delay: 12s;
+  background-image: url(rm.jpg);
+}
+
+slide:nth-child(6) {
+  animation-delay: 14s;
+  background-image: url(jhope.jpg);
+}
+
+slide:nth-child(7) {
+  animation-delay: 16s;
+  background-image: url(suga.jpg);
+}
+
+/* Text inside the slide */
+slide p {
+  font-family: Comfortaa;
+  font-size: 70px;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin-top: 340px;
+  color: #fff;
+}
+
+/* Bracket text */
+#bracket {
+  font-size: xx-large;
+}
+
+/* Keyframe selectors for the animation slide */
+@keyframes slide {
+  0% {
+    left: 100%;
+    width: 100%;
+  }
+  5% {
+    left: 0%;
+  }
+  25% {
+    left: 0%;
+  }
+  30% {
+    left: -100%;
+    width: 100%;
+  }
+  30.0001% {
+    left: -100%;
+    width: 0%;
+  }
+  100% {
+    left: 100%;
+    width: 0%;
+  }
+}
+
+/* Text field styling */
+#history {
+  padding: 20px 0;
+  margin: 5ex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  text-transform: initial;
+  line-height: 50px;
+  line-break: normal;
+  white-space: pre-wrap;
+}
+
+#history div {
+  color: purple;
+  text-align: center;
+  font-family: "Comic Sans MS",cursive,sans-serif;
+  font-size: xx-large;
+}
+
+/* Cover image */
+.bg-image {
+  background-image: url("history4.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* headings */
+.heading1 {
+  color: antiquewhite;
+}
+
+.heading2 {
+  color: darkkhaki;
+}
+
+/* Video Styling */
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 40%;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Image */
+.img-container {
+  text-align: center;
+  display: block;
+}
+
+/* grid styling */
+.row > div {
+  padding: 20px;
+  background-color: #ccc;
+  border: 2px solid black;
+}
+/*# sourceMappingURL=styles.css.map */
