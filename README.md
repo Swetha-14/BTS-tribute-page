@@ -1,4 +1,4 @@
-# CS50W Project 0: Bangatan Sonyeondan (  A Tribute to BTS )
+# CS50W Project 0: Bangtan Sonyeondan (  A Tribute to BTS )
 
 ***A responsive web application that helps you to know more about BTS(A Korean Boy Band) their Music, History, Records, and ARMY ! and especially why I stan them and how they inspire me so much !***
 
